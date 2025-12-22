@@ -1,0 +1,11 @@
+kubernetes_version: "v1.35.0"
+kubernetes_package_version: "v1.35"
+containerd_version: "2.2.1"
+runc_version: "1.4.0"
+crictl_version: "v1.35.0"
+calico_version: "v3.29.1"
+
+# Networking
+pod_cidr: "10.244.0.0/16"
+service_subnet: "10.96.0.0/12"
+dns_domain: "cluster.local"
