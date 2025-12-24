@@ -1,6 +1,0 @@
-- hosts: control_plane
-  become: true
-  roles:
-    - kubeadm
-  vars:
-    kubeadm_reset: true
